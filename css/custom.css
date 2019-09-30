@@ -12,3 +12,12 @@
   background-size: cover;
   -o-background-size: cover;
 }
+.pro1{
+  height: 23vh;
+}
+.projectBackground{
+  height: 76vh;
+  background-image: url(../img/spx.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
