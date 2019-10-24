@@ -13,11 +13,76 @@
   -o-background-size: cover;
 }
 #pro1{
-  height: 23vh;
+  height: 13vh;
 }
 .projectBackground{
   height: 76vh;
   background-image: url(../img/spx.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+.skillspage{
+    height: 120vh;
+    background-image: url(../img/spacex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin-top: 20%;
+}
+.skp{
+  width: 100vw;
+}
+.text{
+  font-size: 44px;
+}
+.m{
+  margin-left: 2%;
+}
+.imageSize{
+    margin-top: 5%;
+    border-radius: 3%;
+    width: 11vw;
+    height: 11vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.html{
+  background-image: url(../img/html.jpeg);
+}
+.aws{
+  background-image: url(../img/aws.jpeg);
+}
+.babel{
+  background-image: url(../img/babel.png);
+}
+.boot{
+  background-image: url(../img/bootstrap.png);
+}
+.cs{
+  background-image: url(../img/css.png);
+}
+.figma{
+  background-image: url(../img/figma.png);
+}
+.git{
+  background-image: url(../img/github.png);
+}
+.jq{
+  background-image: url(../img/jq.png);
+}
+.js{
+  background-image: url(../img/js1.png);
+}
+.mysql{
+  background-image: url(../img/mysql.png);
+}
+.php{
+  background-image: url(../img/php.png);
+}
+.react{
+  background-image: url(../img/react.png);
+}
+.webpack{
+  background-image: url(../img/webpack.png);
 }
