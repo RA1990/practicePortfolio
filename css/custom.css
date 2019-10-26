@@ -13,7 +13,19 @@
   -o-background-size: cover;
 }
 #pro1{
-  height: 13vh;
+  height: 26vh;
+}
+.m2{
+margin: 3%;
+}
+.pro{
+  display: flex;
+  justify-content: space-around;
+}
+.tabs {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+    color: white;
+    font-size: 18px;
 }
 .projectBackground{
   height: 76vh;
@@ -85,4 +97,51 @@
 }
 .webpack{
   background-image: url(../img/webpack.png);
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {/*ipad*/
+#pro1 {
+    height: 17vh;
+}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {/*ipad*/
+#pro1 {
+    height: 9vh;
+}
+.imageSize{
+  width: 23vw;
+  height: 12vh;
+}
+.text{
+  margin-top: -14%;
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){/*iphone*/
+#pro1 {
+    height: 18vh;
+}
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){/*iphone*/
+.pro {
+    display: inline-grid;
+    margin-top: 1%;
+}
+.m2 {
+    margin-top: 22%;
+}
+#pro1{
+  height: 8vh;
+}
+.imageSize {
+    margin-top: 10%;
+    border-radius: 3%;
+    width: 22vw;
+    height: 11vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
 }
