@@ -1,7 +1,7 @@
 .intro {
   display: table;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 100px 0;
   text-align: center;
   color: white;
@@ -11,4 +11,137 @@
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+#pro1{
+  height: 26vh;
+}
+.m2{
+margin: 3%;
+}
+.pro{
+  display: flex;
+  justify-content: space-around;
+}
+.tabs {
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+    color: white;
+    font-size: 18px;
+}
+.projectBackground{
+  height: 76vh;
+  background-image: url(../img/spx.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.skillspage{
+    height: 120vh;
+    background-image: url(../img/spacex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin-top: 20%;
+}
+.skp{
+  width: 100vw;
+}
+.text{
+  font-size: 44px;
+}
+.m{
+  margin-left: 2%;
+}
+.imageSize{
+    margin-top: 5%;
+    border-radius: 3%;
+    width: 11vw;
+    height: 11vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.html{
+  background-image: url(../img/html.jpeg);
+}
+.aws{
+  background-image: url(../img/aws.jpeg);
+}
+.babel{
+  background-image: url(../img/babel.png);
+}
+.boot{
+  background-image: url(../img/bootstrap.png);
+}
+.cs{
+  background-image: url(../img/css.png);
+}
+.figma{
+  background-image: url(../img/figma.png);
+}
+.git{
+  background-image: url(../img/github.png);
+}
+.jq{
+  background-image: url(../img/jq.png);
+}
+.js{
+  background-image: url(../img/js1.png);
+}
+.mysql{
+  background-image: url(../img/mysql.png);
+}
+.php{
+  background-image: url(../img/php.png);
+}
+.react{
+  background-image: url(../img/react.png);
+}
+.webpack{
+  background-image: url(../img/webpack.png);
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {/*ipad*/
+#pro1 {
+    height: 17vh;
+}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {/*ipad*/
+#pro1 {
+    height: 9vh;
+}
+.imageSize{
+  width: 23vw;
+  height: 12vh;
+}
+.text{
+  margin-top: -14%;
+}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){/*iphone*/
+#pro1 {
+    height: 18vh;
+}
+
+}
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){/*iphone*/
+.pro {
+    display: inline-grid;
+    margin-top: 1%;
+}
+.m2 {
+    margin-top: 22%;
+}
+#pro1{
+  height: 8vh;
+}
+.imageSize {
+    margin-top: 10%;
+    border-radius: 3%;
+    width: 22vw;
+    height: 11vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
 }
