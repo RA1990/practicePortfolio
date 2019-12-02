@@ -147,9 +147,6 @@
   #pro1 {
     height: 17vh;
   }
-  /* .font-ptag {
-    font-size: 49%;
-  } */
   .fz {
     font-weight: bolder;
     font-size: 36%;
@@ -177,6 +174,45 @@
   .fz {
     font-weight: bolder;
     font-size: 57%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  /* iphone 6,7,8 */
+  .projectBackground {
+    height: 106vh;
+  }
+  .skillspage {
+    height: 169vh;
+  }
+  .font-ptag {
+    font-size: 49%;
+  }
+  .fz {
+    font-weight: 900;
+    font-size: 22%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  /* iphone 6,7,8 */
+  .skillspage {
+    margin-top: 115%;
+  }
+  .pro {
+    display: inline;
+  }
+  #pro1 {
+    height: 7vh;
+  }
+  .cf {
+    font-size: 37%;
+  }
+  .custom-font-size {
+    font-size: 39%;
+  }
+  .raul {
+    margin-left: 8%;
   }
 }
 
