@@ -14,7 +14,7 @@
 }
 
 .font-ptag {
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 #pro1 {
@@ -26,6 +26,7 @@
 }
 
 .fz {
+  text-transform: initial;
   font-size: 50%;
 }
 
