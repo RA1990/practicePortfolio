@@ -13,6 +13,13 @@
   -o-background-size: cover;
 }
 
+.w-2 {
+  opacity: 82%;
+  background-color: dimgray;
+  margin: 1%;
+  color: aliceblue;
+}
+
 .font-ptag {
   text-transform: uppercase;
 }
@@ -27,7 +34,7 @@
 
 .fz {
   text-transform: initial;
-  font-size: 50%;
+  font-size: 100%;
 }
 
 .fl {
@@ -154,7 +161,7 @@
   }
   .fz {
     font-weight: bolder;
-    font-size: 38%;
+    font-size: 119%;
   }
 }
 
@@ -178,7 +185,7 @@
   }
   .fz {
     font-weight: bolder;
-    font-size: 50%;
+    font-size: 129%
   }
 }
 
@@ -191,11 +198,11 @@
     height: 169vh;
   }
   .font-ptag {
-    font-size: 49%;
+    font-size: 77%;
   }
   .fz {
     font-weight: 900;
-    font-size: 22%;
+    font-size: 75%;
   }
 }
 
@@ -206,19 +213,21 @@
   }
   .fz {
     font-weight: bolder;
-    font-size: 40%;
+    background-color: dimgrey;
+    font-size: 95%;
   }
   .pro {
     display: inline;
   }
   #pro1 {
-    height: 7vh;
+    height: 11vh;
+    margin-top: 3%;
   }
   .cf {
-    font-size: 39%;
+    font-size: 90%;
   }
   .custom-font-size {
-    font-size: 38%;
+    font-size: 90%;
   }
   .raul {
     margin-left: 8%;
@@ -238,7 +247,7 @@
   }
   .fz {
     font-weight: 900;
-    font-size: 28%;
+    font-size: 83%;
   }
 }
 
@@ -251,13 +260,15 @@
     display: inline;
   }
   #pro1 {
-    height: 7vh;
+    margin-top: 5%;
+    height: 11vh;
   }
   .cf {
-    font-size: 39%;
+    background-color: dimgrey;
+    font-size: 100%;
   }
   .custom-font-size {
-    font-size: 38%;
+    font-size: 100%;
   }
   .raul {
     margin-left: 8%;
